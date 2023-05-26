@@ -48,7 +48,7 @@ const Student = () => {
   justifyContent: 'center', padding: "100px" }} >
     <TableContainer>
       <Table>
-        <TableHead>
+        <TableHead >
           <TableRow>
             <TableCell>Name</TableCell>
             <TableCell>Marks</TableCell>

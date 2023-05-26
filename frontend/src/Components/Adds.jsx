@@ -15,7 +15,7 @@ const Adds = (props) => {
         .post("http://localhost:8080/create", datas)
         .then((response) => {
           alert("added");
-          // setDatas({ sname: "", sgrade: "" });
+          setDatas({ sname: "", sgrade: "" });
         })
         .catch((err) => console.log(err));
     }
